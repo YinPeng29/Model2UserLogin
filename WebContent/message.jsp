@@ -32,7 +32,7 @@
 					    	// 获取登录的用户信息
 							User user = (User)session.getAttribute("user");
 					    	// 判断用户是否登录
-							if(user!=null){
+							if(user != null){
 						%>
 						<table align="center" width="350" border="1" height="200" bordercolor="#E8F4CC">
 							<tr>
