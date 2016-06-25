@@ -13,8 +13,24 @@
   	<servlet-name>RegServlet</servlet-name>
   	<servlet-class>cn.control.RegServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>cn.control.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserExitServlet</servlet-name>
+  	<servlet-class>cn.control.UserExitServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>RegServlet</servlet-name>
   	<url-pattern>/RegServlet/</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet/</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserExitServlet</servlet-name>
+  	<url-pattern>/UserExitServlet/</url-pattern>
   </servlet-mapping>
 </web-app>

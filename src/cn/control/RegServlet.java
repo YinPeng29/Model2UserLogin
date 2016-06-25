@@ -74,5 +74,4 @@ public class RegServlet extends HttpServlet {
 		request.getRequestDispatcher("message.jsp").forward(request,response);
 		doGet(request, response);
 	}
-
 }
